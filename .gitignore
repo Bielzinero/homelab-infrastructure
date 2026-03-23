@@ -1,0 +1,5 @@
+*.log
+*.env
+*.backup
+*.tar.gz
+node_modules/
