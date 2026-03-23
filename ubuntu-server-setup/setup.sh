@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# Basic Ubuntu server setup script
-# Updates system and installs common utilities
+# ----------------------------------
+# Ubuntu Server Setup Script
+# Author: Bielzinero
+# Purpose:
+#   Initializes a fresh Ubuntu server with
+#   essential administration tools and firewall.
+# ----------------------------------
 
 echo "Updating system..."
 sudo apt update && sudo apt upgrade -y
