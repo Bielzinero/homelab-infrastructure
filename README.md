@@ -1,33 +1,46 @@
 # Homelab Infrastructure
 
-This repository documents infrastructure setups and experiments from my Linux homelab environment.
+This repository documents infrastructure setups and troubleshooting practices from my Linux homelab environment.
 
-The goal of this project is to practice and document common system administration tasks such as server setup, networking, reverse proxy configuration, monitoring, and backups.
+The goal of this project is to demonstrate practical system administration skills including server setup, networking, reverse proxy configuration, monitoring, backup automation, and incident troubleshooting.
 
 ---
 
 ## Components
 
 ### Ubuntu Server Setup
-Basic server initialization including:
+Basic initialization of a fresh Ubuntu server including:
+
 - system updates
 - essential administration tools
-- firewall configuration (UFW)
+- firewall configuration using UFW
 
 ### Virtual Machine Networking
-Example of configuring a Linux bridge interface to allow virtual machines to share the host network.
+Example configuration of a Linux bridge interface allowing virtual machines to share the host network.
 
 ### Nginx Reverse Proxy
 Installation and configuration of Nginx as a reverse proxy to route external HTTP traffic to internal services.
 
 ### Monitoring
-Example setup of system monitoring using Netdata to track system performance metrics such as CPU, memory, and network usage.
+System monitoring example using Netdata to observe:
+
+- CPU usage
+- memory usage
+- disk activity
+- network traffic
 
 ### Backup System
 Simple automated backup script demonstrating compressed backups of important directories.
 
-### Documentation
-Infrastructure diagrams and troubleshooting notes documenting common debugging steps.
+### Incident Response
+Documentation of common infrastructure troubleshooting scenarios:
+
+- Nginx service failure
+- high CPU usage
+- disk space exhaustion
+- login/authentication failures
+
+These examples demonstrate structured troubleshooting methodology for diagnosing server issues.
 
 ---
 
@@ -39,8 +52,8 @@ Infrastructure diagrams and troubleshooting notes documenting common debugging s
 - Firewall configuration (UFW)
 - Infrastructure monitoring
 - Backup automation
+- Incident troubleshooting
 - Infrastructure documentation
-- Troubleshooting methodology
 
 ---
 
@@ -51,7 +64,12 @@ homelab-infrastructure
 ├── README.md
 ├── docs
 │   ├── infrastructure-diagram.md
-│   └── troubleshooting.md
+│   ├── troubleshooting.md
+│   └── incident-response
+│       ├── nginx-down.md
+│       ├── high-cpu.md
+│       ├── disk-full.md
+│       └── login-failure.md
 ├── ubuntu-server-setup
 │   └── setup.sh
 ├── vm-networking
@@ -72,3 +90,5 @@ Each directory contains scripts and documentation explaining the purpose and con
 ## Purpose
 
 This repository serves as a practical demonstration of infrastructure and system administration concepts using a self-hosted Linux environment.
+
+It is intended as a learning project and technical portfolio for infrastructure, system administration, and technical support roles.
