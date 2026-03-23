@@ -1,4 +1,6 @@
 # Homelab Infrastructure Diagram
+
+```
                 Internet
                     │
                 Router
@@ -17,6 +19,7 @@
     Nginx Reverse Proxy
         │
    Routes traffic to internal services
+```
 
 ## Description
 
