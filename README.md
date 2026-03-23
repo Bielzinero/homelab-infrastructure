@@ -48,12 +48,21 @@ Infrastructure diagrams and troubleshooting notes documenting common debugging s
 
 ```
 homelab-infrastructure
+├── README.md
 ├── docs
+│   ├── infrastructure-diagram.md
+│   └── troubleshooting.md
 ├── ubuntu-server-setup
+│   └── setup.sh
 ├── vm-networking
+│   └── bridge-network.sh
 ├── nginx-reverse-proxy
+│   ├── install-nginx.sh
+│   └── example.conf
 ├── monitoring
+│   └── install-netdata.sh
 └── backup-system
+    └── backup.sh
 ```
 
 Each directory contains scripts and documentation explaining the purpose and configuration of the infrastructure component.
