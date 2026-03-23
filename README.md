@@ -1,8 +1,8 @@
 # Homelab Infrastructure
 
-This repository documents infrastructure setups and troubleshooting practices from my Linux homelab environment.
+This repository documents infrastructure setups, automation examples, and troubleshooting practices from my Linux homelab environment.
 
-The goal of this project is to demonstrate practical system administration skills including server setup, networking, reverse proxy configuration, monitoring, backup automation, and incident troubleshooting.
+The goal of this project is to demonstrate practical system administration skills including server setup, networking, reverse proxy configuration, monitoring, backup automation, and incident response.
 
 ---
 
@@ -12,7 +12,7 @@ The goal of this project is to demonstrate practical system administration skill
 Basic initialization of a fresh Ubuntu server including:
 
 - system updates
-- essential administration tools
+- installation of essential administration tools
 - firewall configuration using UFW
 
 ### Virtual Machine Networking
@@ -22,15 +22,23 @@ Example configuration of a Linux bridge interface allowing virtual machines to s
 Installation and configuration of Nginx as a reverse proxy to route external HTTP traffic to internal services.
 
 ### Monitoring
-System monitoring example using Netdata to observe:
+Example monitoring setup using Netdata to track:
 
 - CPU usage
 - memory usage
-- disk activity
 - network traffic
+- disk activity
 
 ### Backup System
-Simple automated backup script demonstrating compressed backups of important directories.
+Simple backup script demonstrating automated compressed backups of important directories.
+
+### Automation
+Example system maintenance automation script performing routine tasks such as:
+
+- package updates
+- system cleanup
+- disk usage checks
+- system status checks
 
 ### Incident Response
 Documentation of common infrastructure troubleshooting scenarios:
@@ -40,7 +48,7 @@ Documentation of common infrastructure troubleshooting scenarios:
 - disk space exhaustion
 - login/authentication failures
 
-These examples demonstrate structured troubleshooting methodology for diagnosing server issues.
+These examples demonstrate structured troubleshooting methodology used in system administration.
 
 ---
 
@@ -52,6 +60,7 @@ These examples demonstrate structured troubleshooting methodology for diagnosing
 - Firewall configuration (UFW)
 - Infrastructure monitoring
 - Backup automation
+- Infrastructure automation
 - Incident troubleshooting
 - Infrastructure documentation
 
@@ -79,8 +88,10 @@ homelab-infrastructure
 │   └── example.conf
 ├── monitoring
 │   └── install-netdata.sh
-└── backup-system
-    └── backup.sh
+├── backup-system
+│   └── backup.sh
+└── automation
+    └── system-maintenance.sh
 ```
 
 Each directory contains scripts and documentation explaining the purpose and configuration of the infrastructure component.
