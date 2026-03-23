@@ -14,3 +14,7 @@ Backup a web server directory:
 
 ```bash
 bash backup.sh
+```
+This creates:
+
+/backup/backup-YYYY-MM-DD.tar.gz
