@@ -21,3 +21,4 @@ Run the script:
 
 ```bash
 bash system-maintenance.sh
+```
