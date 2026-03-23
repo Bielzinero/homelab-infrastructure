@@ -10,3 +10,11 @@ Topics covered:
 
 The goal of this project is to document infrastructure setup and
 troubleshooting practices used in self-hosted environments.
+
+## Skills Demonstrated
+
+- Linux server administration
+- Virtual machine networking
+- Reverse proxy configuration (Nginx)
+- Firewall configuration (UFW)
+- Infrastructure documentation
